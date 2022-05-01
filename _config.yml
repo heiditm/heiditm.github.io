@@ -17,9 +17,9 @@ description: >
 #  <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
 Socials:
-  Email: test@gmail.com
-  LinkedIn: https://www.linkedin.com/in/heidi-885322150
-  Tableau: ttps://public.tableau.com/profile/heidi.tm#!/
+  envelope: test@gmail.com
+  linkedin: https://www.linkedin.com/in/heidi-885322150
+  tableau: ttps://public.tableau.com/profile/heidi.tm#!/
 
 # - icon: fa-asterisk
 #   href: https://public.tableau.com/profile/heidi.tm#!/
