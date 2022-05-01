@@ -17,8 +17,6 @@ description: >
 #  <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
 social:
-#   - title: envelope
-#     url: mailto:kim.rick@gmail.com
   - title: linkedin
     url: https://www.linkedin.com/in/heidi-885322150
     icon: fa-linkedin
