@@ -1,9 +1,9 @@
-- title: Email
-  url: test@gmail.com
-  icon: fab fa-envelope
-- title: LinkedIn
-  url: https://www.linkedin.com/in/heidi-885322150
-  icon: fab fa-linkedin
- - title: Tableau
-  url: https://public.tableau.com/profile/heidi.tm#!/
-  icon: fab fa-asterisk
+- title: 'Email'
+  href: 'test@gmail.com'
+  fa-icon: 'fa-envelope'
+- title: 'LinkedIn'
+  href: 'https://www.linkedin.com/in/heidi-885322150'
+  fa-icon: 'fa-linkedin'
+ - title: 'Tableau'
+  href: 'https://public.tableau.com/profile/heidi.tm#!/'
+  fa-icon: 'fa-asterisk'
