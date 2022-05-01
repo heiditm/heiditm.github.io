@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Exploratory Data Analysis (EDA) 
 
 [Melanoma Study](/sample_page)
 <img src="images/thumbnail Melanoma Project.JPG"/>
