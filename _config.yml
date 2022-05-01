@@ -15,9 +15,9 @@ description: >
   <br><br><b>IDE:</b> Jupyter Notebook, RStudio
   
   <br><br>
-  <a href="mailto:test@gmail.com"><i class="fa fa-regular fa-envelope"></i></a>
-  <a href="www.linkedin.com/in/heidi-885322150"> <i class="fa fa-brands fa-linkedin"></i></a>
-  <a href="https://public.tableau.com/app/profile/heidi.tm#!/"> <i class="fa fa-solid fa-asterisk"></i></a>
+  <a href="mailto:test@gmail.com"><i class="fab fa-regular fa-envelope"></i></a>
+  <a href="www.linkedin.com/in/heidi-885322150"> <i class="fab fa-brands fa-linkedin"></i></a>
+  <a href="https://public.tableau.com/app/profile/heidi.tm#!/"> <i class="fab fa-solid fa-asterisk"></i></a>
   
   icon: fa-regular fa-envelope
   href: mailto:test@gmail.com
