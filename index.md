@@ -5,7 +5,7 @@
 ### Exploratory Data Analysis (EDA) 
 
 [Melanoma Study](/sample_page)
-<img src="images/Melanoma.jpg"/>
+<img src="images/Melanoma.JPG"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
