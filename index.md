@@ -1,11 +1,11 @@
 ## Portfolio
 
 ---
-### Shorts (Writing)
+### Shorts
 Topic|
 -|
-[Cryptography - Encryption vs. Decryption](Papers/Cryptography - Encryption vs. Decryption.pdf)
-[Types of Data Analytics](Papers/Types of Data Analytics.pdf)
+[Cryptography - Encryption vs. Decryption](papers/Cryptography-Encryption_vs._Decryption.pdf)
+[Types of Data Analytics](papers/Types_of_Data_Analytics.pdf)
 
 ### Exploratory Data Analysis (EDA) 
 
