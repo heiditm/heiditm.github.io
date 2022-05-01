@@ -16,17 +16,12 @@ description: >
 #  <br><br> <a href="www.linkedin.com/in/heidi-885322150">LinkedIn</a>
 #  <br><br> <a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
- <br><br><a href="mailto:test@gmail.com"><i class="fa-regular fa-envelope"></i></a>
- <br><br><a href="www.linkedin.com/in/heidi-885322150"><i class="fa-brands fa-linkedin"></i></a>
- <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/"><i class="fa-solid fa-asterisk"></i></a>
+# <br><br><a href="mailto:test@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+# <br><br><a href="www.linkedin.com/in/heidi-885322150"><i class="fa-brands fa-linkedin"></i></a>
+# <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/"><i class="fa-solid fa-asterisk"></i></a>
+ 
+ <br><br><a href="www.linkedin.com/in/heidi-885322150"> <i class="fa fa-linkedin fa-4x"></i></a>
 
-# social:
-# - icon: fa-linkedin
-#   href: https://www.linkedin.com/in/heidi-885322150
-# - icon: fa-asterisk
-#   href: https://public.tableau.com/profile/heidi.tm#!/
-# - icon: fa-envelope
-#   href: mailto:test@gmail.com
 
 theme: jekyll-theme-minimal
 # google_analytics: UA-000000-0 # your Google Analytics tracking ID here
