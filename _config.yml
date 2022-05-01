@@ -18,13 +18,13 @@ description: >
 
 Email:
   href: 'test@gmail.com'
-  fa-icon: fa-envelope
+  fa-icon: 'fa-envelope'
  LinkedIn:
    href: 'https://www.linkedin.com/in/heidi-885322150'
-  fa-icon: fa-linkedin
+  fa-icon: 'fa-linkedin'
 Tableau:
    href: 'https://public.tableau.com/profile/heidi.tm#!/'
-  fa-icon: fa-asterisk
+  fa-icon: 'fa-asterisk'
 
 #   url: test@gmail.com
 #   icon: fa-envelope
