@@ -16,9 +16,9 @@ description: >
 #  <br><br> <a href="www.linkedin.com/in/heidi-885322150">LinkedIn</a>
 #  <br><br> <a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
- <br><br> <a href="mailto:test@gmail.com"><i class="fa-regular fa-envelope"></i></a>
- <br><br> <a href="www.linkedin.com/in/heidi-885322150"><i class="fa-brands fa-linkedin"></i></a>
- <br><br> <a href="https://public.tableau.com/app/profile/heidi.tm#!/"><i class="fa-solid fa-asterisk"></i></a>
+ <br><br><a href="mailto:test@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+ <br><br><a href="www.linkedin.com/in/heidi-885322150"><i class="fa-brands fa-linkedin"></i></a>
+ <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/"><i class="fa-solid fa-asterisk"></i></a>
 
 # social:
 # - icon: fa-linkedin
