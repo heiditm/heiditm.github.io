@@ -16,12 +16,21 @@ description: >
 #  <br><br> <a href="www.linkedin.com/in/heidi-885322150">LinkedIn</a>
 #  <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
-- icon: fa-asterisk
-  href: https://public.tableau.com/profile/heidi.tm#!/
-- icon: fa-linkedin
-  href: https://www.linkedin.com/in/heidi-885322150
-- icon: fa-envelope
-  href: mailto:test@gmail.com
+social:
+#   - title: envelope
+#     url: mailto:kim.rick@gmail.com
+  - title: linkedin
+    url: https://www.linkedin.com/in/heidi-885322150
+  - title: tableau
+    url: https://public.tableau.com/profile/heidi.tm#!/
+
+
+# - icon: fa-asterisk
+#   href: https://public.tableau.com/profile/heidi.tm#!/
+# - icon: fa-linkedin
+#   href: https://www.linkedin.com/in/heidi-885322150
+# - icon: fa-envelope
+#   href: mailto:test@gmail.com
 
 theme: jekyll-theme-minimal
 # google_analytics: UA-000000-0 # your Google Analytics tracking ID here
