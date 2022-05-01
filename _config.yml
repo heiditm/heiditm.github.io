@@ -18,8 +18,11 @@ description: >
 
 Socials:
   envelope: test@gmail.com
+  icon: fa-envelope
   linkedin: https://www.linkedin.com/in/heidi-885322150
+  icon: fa-linkedin
   tableau: ttps://public.tableau.com/profile/heidi.tm#!/
+  icon: fa-sterisk
 
 # - icon: fa-asterisk
 #   href: https://public.tableau.com/profile/heidi.tm#!/
