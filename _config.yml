@@ -6,16 +6,20 @@ logo: "/images/logo.png"
 
 # your text below (remove <br> elements if you don't need line breaks)
 description: > 
-  # First description 
-  Hi! I am a motivated analyst with an interest in data science and machine learning. More projects to come!
+# First description 
+  Hi! I am a motivated analyst with an interest in data science and machine learning. 
+   <br><br>
+   More projects to come!
   <br><br>
-  # Second description
+# Second description
   <b>Skills:</b> Python, R, SQL, Power BI, Tableau, HTML, CSS
+  <br><br>
   <b>IDE:</b> Jupyter Notebook, RStudio
   
   
   <br><br>
   <a href="www.linkedin.com/in/heidi-885322150">LinkedIn</a>
+  <br><br>
   <a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
   
 theme: jekyll-theme-minimal
