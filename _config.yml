@@ -7,7 +7,7 @@ logo: "/images/camera shy.png"
 
 # your text below (remove <br> elements if you don't need line breaks)
 description: > 
-  Hi! I am a motivated analyst with an interest in data science and machine learning. 
+  Hi! I am a Analyst interested in data science and machine learning. 
   <br><br>
   Still under construction! More projects to come!
   <br><br><b>Analytics & Research Experience in:</b> Digital Marketing, Consumer Insights and Market Research/Consulting
@@ -16,13 +16,10 @@ description: >
 #  <br><br> <a href="www.linkedin.com/in/heidi-885322150">LinkedIn</a>
 #  <br><br><a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau</a>
 
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/heidi-885322150
-    icon: fa-linkedin
-  - title: tableau
-    url: https://public.tableau.com/profile/heidi.tm#!/
-
+Socials:
+  Email: test@gmail.com
+  LinkedIn: https://www.linkedin.com/in/heidi-885322150
+  Tableau: ttps://public.tableau.com/profile/heidi.tm#!/
 
 # - icon: fa-asterisk
 #   href: https://public.tableau.com/profile/heidi.tm#!/
