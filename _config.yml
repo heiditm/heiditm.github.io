@@ -21,6 +21,7 @@ social:
 #     url: mailto:kim.rick@gmail.com
   - title: linkedin
     url: https://www.linkedin.com/in/heidi-885322150
+    icon: fa-linkedin
   - title: tableau
     url: https://public.tableau.com/profile/heidi.tm#!/
 
