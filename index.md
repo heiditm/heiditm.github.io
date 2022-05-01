@@ -5,8 +5,7 @@
 ### Category Name 1 
 
 [Melanoma Study](/sample_page)
-<img src="images/thumbnail Melanoma Project.png"/>
-#<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/thumbnail Melanoma Project.JPG"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
