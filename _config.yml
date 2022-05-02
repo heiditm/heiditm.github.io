@@ -2,7 +2,6 @@
 title: Heidi TM
 
 # your photo (or logo) here
-#logo: "/images/logo.png" 
 logo: "/images/profile pic - circle.jpg"
 
 # your text below (remove <br> elements if you don't need line breaks)
@@ -14,7 +13,7 @@ description: >
   <br><br><b>Skills:</b> Python, R, SQL, Power BI, Tableau, HTML, CSS
   <br><br><b>IDE:</b> Jupyter Notebook, RStudio
   
-  <br><br>|
+  <br><br><a></a>
   <a href="www.linkedin.com/in/heidi-885322150">LinkedIn|</a>
   <a href="https://public.tableau.com/app/profile/heidi.tm#!/">Tableau|</a>
   <a href="https://github.com/heiditm">Github</a> 
