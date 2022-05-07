@@ -3,8 +3,8 @@ Written By: Heidi
 
 Here we will explore the [Melanoma](https://stat.ethz.ch/R-manual/R-devel/library/boot/html/melanoma.html) dataset through exploratory data analysis (EDA).
 
-**Time Frame Conducted:** 1962 - 1977
-**Location:** Department of Plastic Surgery, University Hospital of Odense, Denmark
+**Time Frame Conducted:** 1962 - 1977 <br>
+**Location:** Department of Plastic Surgery, University Hospital of Odense, Denmark <br>
 **Research Question:** Does thickness and/or ulcerated tumors have an increase chance of death from malignant melanoma?
 
 **Synopsis of Study:** Measurements were made on patients with malignant melanoma with each patient's tumor removed. During the surgery the tumor is removed with around 2.5cm of the surrounding skin. Measurements of thickness and ulcerated presence were taken as these variables were predicted to increase the chance of death from the disease. Patients were followed until the end of 1977.
@@ -27,7 +27,7 @@ The skin consists of 3 layers:
 - Epidermis – outermost layer
 - Dermis – second layer
 - Hypodermis – last layer
-- 
+
 When melanoma is found in the epidermis it is seen as situ or noninvasive, if found in the dermis it is seen as invasive.
 
 Below is a table showing the stages, descriptions and survival rates for 5 years and 10 years.
