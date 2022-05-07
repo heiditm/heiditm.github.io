@@ -6,11 +6,11 @@
 
 ### Exploratory Data Analysis (EDA) 
 
-[Melanoma Study](/sample_page)
+[Malignant Melanoma - Variables that Increase Chance of Death](/melanoma)
 <img src="images/Melanoma.JPG"/>
 
 <!-- ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](/pdf/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
