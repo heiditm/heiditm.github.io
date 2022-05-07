@@ -1,5 +1,4 @@
 ## Malignant Melanoma - Variables that Increase Chance of Death
-Written By: Heidi
 
 Here we will explore the [Melanoma](https://stat.ethz.ch/R-manual/R-devel/library/boot/html/melanoma.html) dataset through exploratory data analysis (EDA).
 
