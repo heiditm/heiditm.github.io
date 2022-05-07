@@ -20,6 +20,12 @@ year|Year of operation.
 thickness|Tumour thickness in mm.
 ulcer|Indicator of ulceration; 1=present, 0=absent.
 
+**Status**|**Summary Percentage**
+-|-
+Alive|65.37%
+Dead|27.84%
+Unrelated|6.80%
+
 **Malignant Melanoma** is the most serious form of skin cancer - it develops from unrepairable DNA damage to skin cells, mainly caused by intense or occasional exposure to ultraviolet (UV) radiation from the sun or tanning beds, mutating skin cells to rapidly multiple and forming malignant tumors. Melanoma are most common in the form of black or brown moles (but can form in tissues as well).
 
 The skin consists of 3 layers:
@@ -31,3 +37,14 @@ When melanoma is found in the epidermis it is seen as situ or noninvasive, if fo
 
 Below is a table showing the stages, descriptions and survival rates for 5 years and 10 years.
 <img src="images/melanoma survival chart.png"/>
+
+### Takeaways | Exploratory Data Analysis/Answer to Research Question shows:
+Yes, both thickness and presence of a ulcerated tumor increases the chance of death from malignant melanoma.
+
+- Females are twice as likely to survive than males
+- The first 4 years are the most crucial (majority of deaths occur between 2 - 4.5 years with an average of 3.5 years)
+- Essentially it becomes more crucial with age
+- Factors that **worsen chances of survival** are:
+  - Larger thicknesses (over 3.54mm have about an average survival rate of 44%)
+  - The presence of an ulceration (survival rates drop to 50/50, regardless of sex)
+    - **Note:** Larger thicknesses shows a higher probability in the formation of an ulceration
