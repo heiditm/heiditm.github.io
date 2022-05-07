@@ -10,7 +10,7 @@ Here we will explore the [Melanoma](https://stat.ethz.ch/R-manual/R-devel/librar
 
 This dataset consist of 205 observations and 7 variables:
 
-**VARIABLE**|**DESCRIPTION**
+**Variable**|**Description**
 -|-
 time|Survival time in days since the operation, possibly censored.
 status|The patients status at the end of the study. 1 indicates that they had died from melanoma, 2 indicates that they were still alive and 3 indicates that they had died from causes unrelated to their melanoma.
