@@ -14,17 +14,23 @@ This dataset consist of 205 observations and 7 variables:
 -|-
 time|Survival time in days since the operation, possibly censored.
 status|The patients status at the end of the study. 1 indicates that they had died from melanoma, 2 indicates that they were still alive and 3 indicates that they had died from causes unrelated to their melanoma.
-sex|The patients sex; 1=male, 0=female.
+sex|The patients sex: 1=male, 0=female.
 age|Age in years at the time of the operation.
 year|Year of operation.
 thickness|Tumour thickness in mm.
-ulcer|Indicator of ulceration; 1=present, 0=absent.
+ulcer|Indicator of ulceration: 1=present, 0=absent.
+stage|*additional variable based on the thickness of the ulceration (restrictions are based on research). <br> - Stage 1: thickness &le; 1 <br> - Stage 2: thickness &le; 2 <br> - Stage 3: thickness &ge; 2+
 
 **Status**|**Summary Percentage**
 -|-
 Alive|65.37%
 Dead|27.84%
 Unrelated|6.80%
+
+**Sex**|**Summary Percentage**
+-|-
+Male|62.30%
+Female|37.70%
 
 **Malignant Melanoma** is the most serious form of skin cancer - it develops from unrepairable DNA damage to skin cells, mainly caused by intense or occasional exposure to ultraviolet (UV) radiation from the sun or tanning beds, mutating skin cells to rapidly multiple and forming malignant tumors. Melanoma are most common in the form of black or brown moles (but can form in tissues as well).
 
@@ -38,7 +44,19 @@ When melanoma is found in the epidermis it is seen as situ or noninvasive, if fo
 Below is a table showing the stages, descriptions and survival rates for 5 years and 10 years.
 <img src="images/melanoma survival chart.png"/>
 
-### Takeaways | Exploratory Data Analysis/Answer to Research Question shows:
+
+<img src="images/melanoma boxplot.png"/>
+
+- There seems to be a critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
+
+
+
+<img src="images/melanoma bubble.png"/>
+
+- Most deaths occur in patients with an ulceration and larger thicknesses
+- Patients without an ulceration generally have a smaller thickness
+
+### Takeaways | Answer to Research Question shows:
 Yes, both thickness and presence of a ulcerated tumor increases the chance of death from malignant melanoma.
 
 - Females are twice as likely to survive than males
