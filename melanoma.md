@@ -47,7 +47,7 @@ Below is a table showing the stages, descriptions and survival rates for 5 years
 
 <img src="images/melanoma boxplot.png"/>
 
-- There seems to be a critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
+- A critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
 
 
 
