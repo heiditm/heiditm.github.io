@@ -8,7 +8,8 @@
 
 [Malignant Melanoma - Variables that Increase Chance of Death](/melanoma)
 <!-- <img src="images/Melanoma.JPG"/> -->
-<a href=https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients>![](images/Melanoma.JPG)</a>
+<!-- <a href=https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients>![](images/Melanoma.JPG)</a> -->
+[![](images/Melanoma.JPG)](https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients)
 
 
 <!-- ---
