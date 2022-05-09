@@ -4,7 +4,7 @@
 [Cryptography - Encryption vs. Decryption](pdf/Cryptography-Encryption_vs._Decryption.pdf)<br>
 [Types of Data Analytics](pdf/Types_of_Data_Analytics.pdf)
 
-### Exploratory Data Analysis (EDA) 
+### Projects
 
 [Malignant Melanoma - Variables that Increase Chance of Death](/melanoma)
 <img src="images/Melanoma.JPG"/>
