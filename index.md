@@ -7,7 +7,9 @@
 ### Projects
 
 [Malignant Melanoma - Variables that Increase Chance of Death](/melanoma)
-<img src="images/Melanoma.JPG"/>
+<!-- <img src="images/Melanoma.JPG"/> -->
+<a href=https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients>![](images/Melanoma.JPG)</a>
+
 
 <!-- ---
 [Project 2 Title](/pdf/sample_page)
