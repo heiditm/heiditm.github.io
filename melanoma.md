@@ -85,7 +85,7 @@ Below is a table showing the stages, descriptions and survival rates for 5 years
 - Male survival rate is about 60%
 - Female survival rate is over 75%
 - Larger thicknesses show a higher probability of a presence of an ulceration
-T- hicknesses larger than 3.54mm have about an average survival rate of 44%
+- Thicknesses larger than 3.54mm have about an average survival rate of 44%
 
 ### Takeaways | Answer to Research Question shows:
 Yes, both thickness and presence of a ulcerated tumor increases the chance of death from malignant melanoma.
