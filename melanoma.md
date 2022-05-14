@@ -49,14 +49,15 @@ Below is a table showing the stages, descriptions and survival rates for 5 years
 
 - A critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
 
-![](images/melanoma 1.png)
+<img src="images/melanoma 1.png"/>
 
 - Female patients are twice as likely to live through melanoma than male patients
 - Presence of an ulceration show survival rates to be 50 - 50 regardless of sex
 - Patients are 5.7 times more likely to survive if they do not show ulceration
 
 
-...
+<img src="images/melanoma 2.png"/>
+
 - In general, regardless of sex, patients without ulceration have a better chance of survival (with females having a higher likelihood) whereas patients with an ulceration seem to have a 50 - 50 chance of survival
 - Females without ulceration are 8.5 times likely to survive
 - Males without ulceration are 3 times more likely to survive
@@ -67,9 +68,15 @@ Below is a table showing the stages, descriptions and survival rates for 5 years
 - Most deaths occur in patients with an ulceration and larger thicknesses
 - Patients without an ulceration generally have a smaller thickness
 
-...
-**Crossplots show:**
+<img src="images/melanoma crossplot 1.png"/>
+<img src="images/melanoma crossplot 2.png"/>
+<img src="images/melanoma crossplot 3.png"/>
+<img src="images/melanoma crossplot 4.png"/>
+<img src="images/melanoma crossplot 5.png"/>
+<img src="images/melanoma crossplot 6.png"/>
+<img src="images/melanoma crossplot 7.png"/>
 
+**Crossplots show:**
 - Survival rates starts to show significant increase after 4+ years
 - Age is unlikely a potential factor although patients over the age of 73 show to have less than a 45% survival rate
 - The presence of an ulceration shows to have 50% survival rate
