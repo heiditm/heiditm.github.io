@@ -76,7 +76,7 @@ Below is a table showing the stages, descriptions and survival rates for 5 years
 <img src="images/melanoma crossplot 6.png"/>
 <img src="images/melanoma crossplot 7.png"/>
 
-**Crossplots show:**
+**Insights:**
 - Survival rates starts to show significant increase after 4+ years
 - Age is unlikely a potential factor although patients over the age of 73 show to have less than a 45% survival rate
 - The presence of an ulceration shows to have 50% survival rate
