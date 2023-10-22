@@ -11,6 +11,11 @@
 <!-- <a href=https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients>![](images/Melanoma.JPG)</a> -->
 [![](images/Melanoma.JPG)](https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients)
 
+<br>
+
+[VGChartz Video Game Sales EDA]
+[![](images/VGChartz Video Games Sales EDA.JPG)]([https://public.tableau.com/app/profile/heidi.tm/viz/Melanoma_16379984159000/MelanomaStudyinPatients](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard))
+
 
 <!-- [Gun Violence](/gun_violence) -->
 <!-- [![](images/Melanoma.JPG)]() -->
