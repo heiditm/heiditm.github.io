@@ -13,8 +13,8 @@
 
 
 <!--Good to post the below, incase want to add a better title/small analysis? -->
-<!--VGChartz Video Game Sales EDA -->
-<!--[![](images/VGChartz Video Games Sales EDA.jpg)](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard) -->
+<!--VGChartz Video Game Sales-->
+[![](images/VGChartz Video Games Sales.jpg)](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
 
 
 <!-- [Gun Violence](/gun_violence) -->
