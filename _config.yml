@@ -4,12 +4,6 @@ title: Heidi TM
 # your photo (or logo) here
 logo: "/images/profile pic - circle.jpg"
 
-  # <img src="/images/Certificate Badges.jpg">
- image: /images/Certificate Badges.jpg
-
-<img src="images/Certificate Badges.jpg"/>
-
-
 # your text below (remove <br> elements if you don't need line breaks)
 description: > 
   Hi! I am an Analyst interested in data science and machine learning. 
@@ -37,7 +31,7 @@ description: >
 
   <br><br>
 
-  # <img src="/images/Certificate Badges.jpg">
+  <img src="/images/Certificate Badges.jpg">
 
 #  <a href="https://linkedin.com/in/heidi-885322150"><i class="fa fa-brands fa-linkedin fa-2x" aria-hidden="true"></i></a>
 #  <a href="https://linkedin.com/in/heidi-885322150"><i class="fab fab-brands fab-linkedin fa-2x" aria-hidden="true"></i></a>
