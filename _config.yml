@@ -4,7 +4,10 @@ title: Heidi TM
 # your photo (or logo) here
 logo: "/images/profile pic - circle.jpg"
 
-  <img src="/images/Certificate Badges.jpg">
+  # <img src="/images/Certificate Badges.jpg">
+
+<img src="images/Certificate Badges.jpg"/>
+
 
 # your text below (remove <br> elements if you don't need line breaks)
 description: > 
