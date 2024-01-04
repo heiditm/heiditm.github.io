@@ -13,9 +13,13 @@
 
 
 <!--Good to post the below, incase want to add a better title/small analysis? -->
-<!--VGChartz Video Game Sales-->
-<!--[![](images/VGChartz Video Games Sales.jpg)](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)-->
+[VGChartz Video Game Sales](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)   
+<!--[![](images/ESRB Rating Symbols.png)]-->
+<img src="images/ESRB Rating Symbols.jpg"/>
 
+<a href="https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard">
+  <img src="images/VGChartz Video Games Sales.jpg"/>
+</a>
 
 <!-- [Gun Violence](/gun_violence) -->
 <!-- [![](images/Melanoma.JPG)]() -->
