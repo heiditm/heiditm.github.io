@@ -15,7 +15,7 @@
 <!--Good to post the below, incase want to add a better title/small analysis? -->
 [VGChartz Video Game Sales](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)   
 <!-- <img src="images/ESRB Rating Symbols.jpg"/>-->
-[<img src="images/VGChartz Video Game Sales.png">](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
+[<img src="images/VGChartz.png">](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
 
 
 <!-- [Gun Violence](/gun_violence) -->
