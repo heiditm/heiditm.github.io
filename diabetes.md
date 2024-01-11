@@ -1,36 +1,49 @@
-## Malignant Melanoma - Variables that Increase Chance of Death
+# Early Classification of Diabetes
+Analysis Written By: Heidi
 
-Here we will explore the [Melanoma](https://stat.ethz.ch/R-manual/R-devel/library/boot/html/melanoma.html) dataset through exploratory data analysis (EDA).
+Here we will explore the  [**Early Classification of Diabetes**](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification/data) dataset through exploratory data analysis (EDA) and predictive analysis (Classification).
 
-**Time Frame Conducted:** 1962 - 1977 <br>
-**Location:** Department of Plastic Surgery, University Hospital of Odense, Denmark <br>
-**Research Question:** Does thickness and/or ulcerated tumors have an increase chance of death from malignant melanoma?
+**Time Frame Conducted:** Unknown, prior to 2019  
+**Location:** Sylhet Diabetes Hospital in Sylhet, Bangladesh  
+**Source:** Kaggle  
+**Research Question:** What are the early signs of diabetes?
 
-**Synopsis of Study:** Measurements were made on patients with malignant melanoma with each patient's tumor removed. During the surgery the tumor is removed with around 2.5cm of the surrounding skin. Measurements of thickness and ulcerated presence were taken as these variables were predicted to increase the chance of death from the disease. Patients were followed until the end of 1977.
+**Synopsis of Study:** This data was collected through direct questionnariess and diagnosis results from newly affected patients who have signs and symptoms of diabetes.
 
-This dataset consist of 205 observations and 7 variables:
+This dataset consists of 520 observations and 17 variables:
+- In the dataset the values mean:
+  - 1 Yes
+  - 0 No
 
-**Variable**|**Description**
+Variable|Description
+-|:---
+Age|Age of patient (16-90)
+Gender|Gender of patient
+Polyuria|Excessive urination volume, considered usually if more than 2.5 liters per day.
+Polydipsia|Excessive thirst, one of the first symptoms of diabetes
+Sudden Weight Loss|A significant drop in weight without a change in diet or excercise. Can occur in people with type 2 diabetes but more common with type 1.
+Weakness|Feeling of fatigue.
+Polyphagia|Excessive hunger that increases appetite significantly and persistently. One of the main symptoms of diabetes.
+Genital Thrush|A yeast infection, high sugar levels supply better conditions for infection to grow.
+Visual Blurring|Loss of sharpness of vision and makes it impossible to see fine details. Instability of blood sugar is known to be the reason for blurred vision.
+Itching|Irritation to the skin.
+Irritability|Feeling of agitation and anger as a result of stress.
+Delayed Healing|Taking longer to heal than normal.
+Partial Paresis|Weakness of voluntary movement, can be a symptom of diabetes.
+Muscle Stiffness|The inability of the muscles to relax normally. It cn affect any part of the body and casues difficulty of moving.
+Alopecia|Leads to hair loss on any part of the body.
+Obesity|Having excess body fat.
+Class|Diagnosis with diabetes. <br>1 Positive <br>0 Negative
+
+**Class**|**Summary Percentage**
 -|-
-time|Survival time in days since the operation, possibly censored.
-status|The patients status at the end of the study. 1 indicates that they had died from melanoma, 2 indicates that they were still alive and 3 indicates that they had died from causes unrelated to their melanoma.
-sex|The patients sex: 1=male, 0=female.
-age|Age in years at the time of the operation.
-year|Year of operation.
-thickness|Tumour thickness in mm.
-ulcer|Indicator of ulceration: 1=present, 0=absent.
-stage|*additional variable based on the thickness of the ulceration (restrictions are based on research). <br> - Stage 1: thickness &le; 1 <br> - Stage 2: thickness &le; 2 <br> - Stage 3: thickness &ge; 2+
-
-**Status**|**Summary Percentage**
--|-
-Alive|65.37%
-Dead|27.84%
-Unrelated|6.80%
+Positive|61.54%
+Negative|38.46%
 
 **Sex**|**Summary Percentage**
 -|-
-Male|62.30%
-Female|37.70%
+Male|63.10%
+Female|36.92%
 
 **Malignant Melanoma** is the most serious form of skin cancer - it develops from unrepairable DNA damage to skin cells, mainly caused by intense or occasional exposure to ultraviolet (UV) radiation from the sun or tanning beds, mutating skin cells to rapidly multiple and forming malignant tumors. Melanoma are most common in the form of black or brown moles (but can form in tissues as well).
 
@@ -41,11 +54,20 @@ The skin consists of 3 layers:
 
 When melanoma is found in the epidermis it is seen as situ or noninvasive, if found in the dermis it is seen as invasive.
 
-Below is a table showing the stages, descriptions and survival rates for 5 years and 10 years.
-<img src="images/melanoma survival chart.png"/>
+![diabetes countplots](https://github.com/heiditm/heiditm.github.io/assets/56846204/865ace74-b5dd-4f38-9f64-d947d6f3191d)
 
+### Early symptoms of diabetes (sorted from highest likelihood):
+- Polydipsia (28 times more likely to have diabetes)
+- Polyuria (16 times more likely to have diabetes)
+- Irratability (7 times more likely to have diabetes)
+- Sudden Weight Loss (6 times more likely to have diabetes)
+- Partial Paresis (6 times more likely to have diabetes)
+- Polyphagia (4 times more likely to have diabetes)
+- Visual Blurring (3 times more likely to have diabetes)
+- Weakness (2.5 times more likely to have diabetes)
+- Itching (1.5 times more likely to have diabetes)
 
-<img src="images/melanoma boxplot.png"/>
+<!---<img src="images/melanoma boxplot.png"/>
 
 - A critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
 
@@ -96,4 +118,4 @@ Yes, both thickness and presence of a ulcerated tumor increases the chance of de
 - Factors that **worsen chances of survival** are:
   - Larger thicknesses (over 3.54mm have about an average survival rate of 44%)
   - The presence of an ulceration (survival rates drop to 50/50, regardless of sex)
-    - **Note:** Larger thicknesses shows a higher probability in the formation of an ulceration
+    - **Note:** Larger thicknesses shows a higher probability in the formation of an ulceration-->
