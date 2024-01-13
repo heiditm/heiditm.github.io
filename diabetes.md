@@ -21,7 +21,7 @@ Age|Age of patient (16-90)
 Gender|Gender of patient
 Polyuria|Excessive urination volume, considered usually if more than 2.5 liters per day.
 Polydipsia|Excessive thirst, one of the first symptoms of diabetes
-Sudden Weight Loss|A significant drop in weight without a change in diet or excercise. Can occur in people with type 2 diabetes but more common with type 1.
+Sudden Weight Loss|A significant drop in weight without a change in diet or exercise. Can occur in people with type 2 diabetes but more common with type 1.
 Weakness|Feeling of fatigue.
 Polyphagia|Excessive hunger that increases appetite significantly and persistently. One of the main symptoms of diabetes.
 Genital Thrush|A yeast infection, high sugar levels supply better conditions for infection to grow.
@@ -30,7 +30,7 @@ Itching|Irritation to the skin.
 Irritability|Feeling of agitation and anger as a result of stress.
 Delayed Healing|Taking longer to heal than normal.
 Partial Paresis|Weakness of voluntary movement, can be a symptom of diabetes.
-Muscle Stiffness|The inability of the muscles to relax normally. It cn affect any part of the body and casues difficulty of moving.
+Muscle Stiffness|The inability of the muscles to relax normally. It can affect any part of the body and causes difficulty of moving.
 Alopecia|Leads to hair loss on any part of the body.
 Obesity|Having excess body fat.
 Class|Diagnosis with diabetes. <br>1 Positive <br>0 Negative
@@ -47,9 +47,9 @@ Female|36.92%
 
 **Diabetes** is a chronic disease that affects how the human body turn food into energy. Currently there is no cure for diabetes but losing weight, being active and eating healthy can help.
 
-Normally the body breaks down majority of the food taken into sugar/glucose and releases into the bloodstream. If blood sugar increase it signals the pancreas to release insulin. Insulin acts as a key to let the blood sgar into the body's cells to use as energy.
+Normally the body breaks down majority of the food taken into sugar/glucose and releases into the bloodstream. If blood sugar increase it signals the pancreas to release insulin. Insulin acts as a key to let the blood sugar into the body's cells to use as energy.
 
-Diabetes is when the body does not make enough insulin or use it as well as it should. When this happens there is a blockage/build up of blood sugar in the bloodstream which can cause serious health problems such as heart disease, vision loss or kidney disease.
+Diabetes is when the body does not make enough insulin or use it as well as it should. When this happens there is a blockage/buildup of blood sugar in the bloodstream which can cause serious health problems such as heart disease, vision loss or kidney disease.
 
 There are 3 types of diabetes:
 
@@ -63,7 +63,6 @@ There are 3 types of diabetes:
 
 **Gestational Diabetes: Pregnant Women who never had diabetes**
 - If diagnosis with this, the baby could have higher risk of health problems. Gestational diabetes usually goes away after the baby is born, however it increases the risk of the mom for Type 2 diabetes later in life. The baby is more likely to have obesity as a child or teen and develop type 2 diabetes later in life.
-
 
 ![diabetes countplots](https://github.com/heiditm/heiditm.github.io/assets/56846204/865ace74-b5dd-4f38-9f64-d947d6f3191d)
 
