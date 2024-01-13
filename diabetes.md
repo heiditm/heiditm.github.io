@@ -58,6 +58,8 @@ There are 3 types of diabetes:
 
 **Type 2 Diabetes: 90% - 95%**
 - The body does not use insulin well and blood sugar levels cannot keep at normal levels. It develops over many years and will usually be diagnosed in young adults. Symptoms may not be noticeable so it is recommended to test blood sugar levels if you are at risk.
+  - **Prediabetes**
+    - In the United States, more than 1 in 3 people has prediabetes and more than 8 in 10 do not know they have it. With prediabetes, blood sugar levels are higher than normal but is not enough to be diagnosed as Type 2. Prediabetes will also raise the risk for heart disease and stroke.
 
 **Gestational Diabetes: Pregnant Women who never had diabetes**
 - If diagnosis with this, the baby could have higher risk of health problems. Gestational diabetes usually goes away after the baby is born, however it increases the risk of the mom for Type 2 diabetes later in life. The baby is more likely to have obesity as a child or teen and develop type 2 diabetes later in life.
