@@ -1,5 +1,4 @@
 # Early Classification of Diabetes
-Analysis Written By: Heidi
 
 Here we will explore the  [**Early Classification of Diabetes**](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification/data) dataset through exploratory data analysis (EDA) and predictive analysis (Classification).
 
