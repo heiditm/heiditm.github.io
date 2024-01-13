@@ -45,27 +45,37 @@ Negative|38.46%
 Male|63.10%
 Female|36.92%
 
-**Malignant Melanoma** is the most serious form of skin cancer - it develops from unrepairable DNA damage to skin cells, mainly caused by intense or occasional exposure to ultraviolet (UV) radiation from the sun or tanning beds, mutating skin cells to rapidly multiple and forming malignant tumors. Melanoma are most common in the form of black or brown moles (but can form in tissues as well).
+**Diabetes** is a chronic disease that affects how the human body turn food into energy. Currently there is no cure for diabetes but losing weight, being active and eating healthy can help.
 
-The skin consists of 3 layers:
-- Epidermis – outermost layer
-- Dermis – second layer
-- Hypodermis – last layer
+Normally the body breaks down majority of the food taken into sugar/glucose and releases into the bloodstream. If blood sugar increase it signals the pancreas to release insulin. Insulin acts as a key to let the blood sgar into the body's cells to use as energy.
 
-When melanoma is found in the epidermis it is seen as situ or noninvasive, if found in the dermis it is seen as invasive.
+Diabetes is when the body does not make enough insulin or use it as well as it should. When this happens there is a blockage/build up of blood sugar in the bloodstream which can cause serious health problems such as heart disease, vision loss or kidney disease.
+
+There are 3 types of diabetes:
+
+**Type 1 Diabetes: 5% - 10%**
+- Theoretically caused by an autoimmune reaction where the body attacks itself by mistake. This reaction will stop the body from making insulin. This type can be diagnosed at any age and symptoms often develop quickly. Patients who are diagnosed with Type 1 will have to take insulin daily for life to survive. Currently there is no way to prevent Type 1 diabetes.
+
+**Type 2 Diabetes: 90% - 95%**
+- The body does not use insulin well and blood sugar levels cannot keep at normal levels. It develops over many years and will usually be diagnosed in young adults. Symptoms may not be noticeable so it is recommended to test blood sugar levels if you are at risk.
+
+**Gestational Diabetes: Pregnant Women who never had diabetes**
+- If diagnosis with this, the baby could have higher risk of health problems. Gestational diabetes usually goes away after the baby is born, however it increases the risk of the mom for Type 2 diabetes later in life. The baby is more likely to have obesity as a child or teen and develop type 2 diabetes later in life.
+
 
 ![diabetes countplots](https://github.com/heiditm/heiditm.github.io/assets/56846204/865ace74-b5dd-4f38-9f64-d947d6f3191d)
 
 ### Early symptoms of diabetes (sorted from highest likelihood):
-- Polydipsia (28 times more likely to have diabetes)
-- Polyuria (16 times more likely to have diabetes)
-- Irratability (7 times more likely to have diabetes)
-- Sudden Weight Loss (6 times more likely to have diabetes)
-- Partial Paresis (6 times more likely to have diabetes)
-- Polyphagia (4 times more likely to have diabetes)
-- Visual Blurring (3 times more likely to have diabetes)
-- Weakness (2.5 times more likely to have diabetes)
-- Itching (1.5 times more likely to have diabetes)
+- Polydipsia
+- Polyuria
+- Irratability
+- Sudden Weight Loss
+- Partial Paresis
+- Polyphagia
+- Visual Blurring
+- Weakness
+- Itching
+
 
 <!---<img src="images/melanoma boxplot.png"/>
 
