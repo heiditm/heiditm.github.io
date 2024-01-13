@@ -18,6 +18,10 @@
 [<img src="images/VGChartz.png">](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
 
 
+
+ [Early Classification of Diabetes](diabetes.md)
+
+ 
 <!-- [Gun Violence](/gun_violence) -->
 <!-- [![](images/Melanoma.JPG)]() -->
 
