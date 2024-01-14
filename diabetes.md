@@ -4,7 +4,6 @@ Here we will explore the  [**Early Classification of Diabetes**](https://www.kag
 
 **Time Frame Conducted:** Unknown, prior to 2019  
 **Location:** Sylhet Diabetes Hospital in Sylhet, Bangladesh  
-**Source:** Kaggle  
 **Research Question:** What are the early signs of diabetes? What is the best machine learning technique to accuracy predict and classify a patient has diabetes?
 
 **Synopsis of Study:** This data was collected through direct questionnariess and diagnosis results from newly affected patients who have signs and symptoms of diabetes.
