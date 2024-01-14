@@ -68,8 +68,8 @@ Early symptoms of diabetes (sorted from highest likelihood):
 
 Variable|50% of Male patients fall between ages|50% of Female patients fall between ages|Note
 -|:-:|:-:|-
-Polydipsia|47 - 58|39 - 55|All female patients with Polydipsia was diagnosised with diabetes.
-Polyuria|44 - 60|39 - 55|All female patients with Polyuria was diagnosised with diabetes.
+Polydipsia|47 - 58|39 - 55|All female patients with polydipsia was diagnosed with diabetes.
+Polyuria|44 - 60|39 - 55|All female patients with polyuria was diagnosed with diabetes.
 Sudden Weight Loss|48 - 58|39 - 55
 Partial Paresis|54 - 66|39 - 55
 Visual Blurring|52 - 62|39 - 55
