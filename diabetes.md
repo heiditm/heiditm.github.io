@@ -5,7 +5,7 @@ Here we will explore the  [**Early Classification of Diabetes**](https://www.kag
 **Time Frame Conducted:** Unknown, prior to 2019  
 **Location:** Sylhet Diabetes Hospital in Sylhet, Bangladesh  
 **Source:** Kaggle  
-**Research Question:** What are the early signs of diabetes?
+**Research Question:** What are the early signs of diabetes? What is the best machine learning technique to accuracy predict and classify a patient has diabetes?
 
 **Synopsis of Study:** This data was collected through direct questionnariess and diagnosis results from newly affected patients who have signs and symptoms of diabetes.
 
@@ -16,8 +16,8 @@ This dataset consists of 520 observations and 17 variables:
 
 Variable|Description
 -|:---
-Age|Age of patient (16-90)
-Gender|Gender of patient
+Age|Age of patient (16-90).
+Gender|Gender of patient.
 Polyuria|Excessive urination volume, considered usually if more than 2.5 liters per day.
 Polydipsia|Excessive thirst, one of the first symptoms of diabetes
 Sudden Weight Loss|A significant drop in weight without a change in diet or exercise. Can occur in people with type 2 diabetes but more common with type 1.
@@ -65,49 +65,35 @@ There are 3 types of diabetes:
 
 ![diabetes countplots](https://github.com/heiditm/heiditm.github.io/assets/56846204/865ace74-b5dd-4f38-9f64-d947d6f3191d)
 
-### Early symptoms of diabetes (sorted from highest likelihood):
-- Polydipsia
-- Polyuria
-- Irratability
-- Sudden Weight Loss
-- Partial Paresis
-- Polyphagia
-- Visual Blurring
-- Weakness
-- Itching
+Early symptoms of diabetes (sorted from highest likelihood):
+
+Variable|50% of Male patients fall between ages|50% of Female patients fall between ages|Note
+-|:-:|:-:|-
+Polydipsia|47 - 58|39 - 55|All female patients with Polydipsia was diagnosised with diabetes.
+Polyuria|44 - 60|39 - 55|All female patients with Polyuria was diagnosised with diabetes.
+Sudden Weight Loss|48 - 58|39 - 55
+Partial Paresis|54 - 66|39 - 55
+Visual Blurring|52 - 62|39 - 55
+Weakness|47 - 61|39 - 54
+Itching|41 - 60|39 - 55
+
+![diabetes boxplot](https://github.com/heiditm/heiditm.github.io/assets/56846204/252d6aa8-5b2f-4b89-a15a-65a496fe12f4)
+
+We will try to find the best method to predict and classify diabetes with our data using logistic regression, decision tree, k nearest neighbors and support vector machines.
+
+![diabetes confusion matrix](https://github.com/heiditm/heiditm.github.io/assets/56846204/a90db023-4962-4d2c-af8c-4f51fba5b11d)
+
+Method|Accuracy %
+-|-
+Decision Tree|	98.0769
+Support Vector Machines|	95.1923
+K Nearest Neighbors|	94.2308
+Logistic Regression|	91.3462
+
+The decision tree method shows the best accuracy to predict and clasify diabetes with the variables in our data. Support vector machines and K nearest neighbors are very similar in accuracy, falling behind decision tree. Logistic regression shows to be the least accurate classifier, wrongly predicting 9 patients.
 
 
-<!---<img src="images/melanoma boxplot.png"/>
-
-- A critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
-
-<img src="images/melanoma 1.png"/>
-
-- Female patients are twice as likely to live through melanoma than male patients
-- Presence of an ulceration show survival rates to be 50 - 50 regardless of sex
-- Patients are 5.7 times more likely to survive if they do not show ulceration
-
-
-<img src="images/melanoma 2.png"/>
-
-- In general, regardless of sex, patients without ulceration have a better chance of survival (with females having a higher likelihood) whereas patients with an ulceration seem to have a 50 - 50 chance of survival
-- Females without ulceration are 8.5 times likely to survive
-- Males without ulceration are 3 times more likely to survive
-- Essentially it becomes more crucial with age
-
-<img src="images/melanoma bubble.png"/>
-
-- Most deaths occur in patients with an ulceration and larger thicknesses
-- Patients without an ulceration generally have a smaller thickness
-
-<img src="images/melanoma crossplot 1.png"/>
-<img src="images/melanoma crossplot 2.png"/>
-<img src="images/melanoma crossplot 3.png"/>
-<img src="images/melanoma crossplot 4.png"/>
-<img src="images/melanoma crossplot 5.png"/>
-<img src="images/melanoma crossplot 6.png"/>
-<img src="images/melanoma crossplot 7.png"/>
-
+<!--
 **Insights:**
 - Survival rates starts to show significant increase after 4+ years
 - Age is unlikely a potential factor although patients over the age of 73 show to have less than a 45% survival rate
