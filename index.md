@@ -16,7 +16,7 @@
 [VGChartz Video Game Sales](https://github.com/heiditm/HTM/blob/main/VGChartz%20Video%20Game%20Sales.ipynb)   
 <!-- <img src="images/ESRB Rating Symbols.jpg"/>-->
 [<img src="images/VGChartz.png">](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
- [Early Classification of Diabetes](diabetes.md)
+<!--  [Early Classification of Diabetes](diabetes.md) -->
 
  
 <!-- [Gun Violence](/gun_violence) -->
