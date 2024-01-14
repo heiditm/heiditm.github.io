@@ -9,9 +9,9 @@ Here we will explore the  [**Early Classification of Diabetes**](https://www.kag
 **Synopsis of Study:** This data was collected through direct questionnariess and diagnosis results from newly affected patients who have signs and symptoms of diabetes.
 
 This dataset consists of 520 observations and 17 variables:
-- In the dataset the values mean:
-  - 1 Yes
-  - 0 No
+- Dataset values description:
+  - 1 = Yes
+  - 0 = No
 
 Variable|Description
 -|:---
