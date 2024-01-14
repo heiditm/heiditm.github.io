@@ -89,7 +89,7 @@ Support Vector Machines|	95.1923
 K Nearest Neighbors|	94.2308
 Logistic Regression|	91.3462
 
-The decision tree method shows the best accuracy to predict and clasify diabetes with the variables in our data. Support vector machines and K nearest neighbors are very similar in accuracy, falling behind decision tree. Logistic regression shows to be the least accurate classifier, wrongly predicting 9 patients.
+The decision tree method shows the best accuracy to predict and classify diabetes with the variables in our data. Support vector machines and K nearest neighbors are very similar in accuracy, falling behind decision tree. Logistic regression shows to be the least accurate classifier, wrongly predicting 9 patients.
 
 
 <!--
