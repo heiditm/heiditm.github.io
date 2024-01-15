@@ -3,8 +3,6 @@
 Here we will explore the  [**VGChartz Video Game Sales**](https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset?resource=download&select=Video_Games_Sales_as_at_22_Dec_2016.csv) dataset through exploratory data analysis (EDA), an interactive dashboard (Tableau) and predictive analysis (Classification).
 
 **Time Frame Conducted:** 1980 - 2020   
-**Source:** Kaggle  
-
 **Synopsis of Study:** VGChartz is a network consisting of 5 video game websites: VGChartz, gamrFeed, gamrReview, gamrTV and gamrConnect. The platform provides weekly game sales tracking by region along with tools for data analysis and reviews for the video gaming industry. The dataset used for this project consist of sales and review data for different platform and games between the years listed above.
 
 This dataset consists of 16,719 observations and 16 variables:
@@ -85,7 +83,7 @@ AO|Adults Only 18+
 EC|Early Childhood (Ages 3+)
 RP|Rating Pending
 
-![](https://raw.githubusercontent.com/heiditm/heiditm.github.io/master/images/ESRB%20Rating%20Symbols.png)
+![ESRB Rating Symbols](https://github.com/heiditm/heiditm.github.io/assets/56846204/db37fd63-04c8-4428-a6ec-05ce9ffb8623)
 
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/6cedaa34-c08a-4a5e-89ba-685f8b7daa8b)
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/b58e497e-8069-45ee-910b-8aaa1ab69a51)
@@ -94,12 +92,14 @@ RP|Rating Pending
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/fcc1ec3e-2663-48b3-aa82-31dffec909bd)
 
 ## Platform Insights
+
 Category|Total Percentage in Top 10|Platforms Included
 -|:-:|:-
 Console|48.43%|PS2, PS3, Wii, X360, PS, XB, PC
 Handheld| 25.02%|DS, PSP, GBA
 
 ## Publisher Insights
+
 Country of Orgin/Region|Total Percentage in Top 10|Publishers Included
 -|:-:|:-
 American|20.83%|Electronic Arts (EA), Activision, THQ, Take-Two Interactive
@@ -108,6 +108,7 @@ French|5.60%|Ubisoft
 
 ## Developer Insights
 Skewed results as there are many companies under <b>Electronic Arts</b> which is included in the Top 10
+
 Country of Orgin/Region|Total Percentage in Top 10|Developers Included
 -|:-:|:-
 American|21.73%|Electronic Arts (Inclusive of all EA), Visual Concept
@@ -122,11 +123,13 @@ French|3.02%|Ubisoft (Inclusive of all Ubisoft)
   - All 5 games are by Nintendo
   - 4 of 5 games are console games
   - Pokemon is the only handheld game
-
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/5f26bc11-d40a-4c0a-a841-41e625e383a5)
-
 Logistic Regression and Support Vector Machine models show to have very similar accuracy scores, but since Logistic Regression has a higher accuracy it is the better model to use for classification for platform type!
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/aed3a3bb-a6d1-4f9a-81bd-e91754432006)
 
-
-![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/da5b729b-41e9-4b03-a435-e9337312cff6)
+Method|Accuracy %
+-|-
+Logistic Regression|99.9267
+Decision Tree|97.4359
+K Nearest Neighbors|90.5495
+Support Vector Machines|99.8535
