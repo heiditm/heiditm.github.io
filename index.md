@@ -1,7 +1,9 @@
 ## Portfolio
 ---
 ### Shorts
-[Cryptography - Encryption vs. Decryption](pdf/Cryptography-Encryption_vs._Decryption.pdf)<br>
+<!-- [Cryptography - Encryption vs. Decryption](pdf/Cryptography-Encryption_vs._Decryption.pdf)<br>-->
+[Cryptography - Encryption vs. Decryption](cryptography_encryption_vs._decryption.md)
+
 <!-- [Types of Data Analytics](pdf/Types_of_Data_Analytics.pdf) -->
 [Types of Data Analytics](types_of_data_analysis.md)
 
