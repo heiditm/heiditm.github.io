@@ -1,81 +1,98 @@
-## Malignant Melanoma - Variables that Increase Chance of Death
+# Early Classification of Diabetes
 
-Here we will explore the [Melanoma](https://stat.ethz.ch/R-manual/R-devel/library/boot/html/melanoma.html) dataset through exploratory data analysis (EDA).
+Here we will explore the  [**Early Classification of Diabetes**](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification/data) dataset through exploratory data analysis (EDA) and predictive analysis (Classification).
 
-**Time Frame Conducted:** 1962 - 1977 <br>
-**Location:** Department of Plastic Surgery, University Hospital of Odense, Denmark <br>
-**Research Question:** Does thickness and/or ulcerated tumors have an increase chance of death from malignant melanoma?
+**Time Frame Conducted:** Unknown, prior to 2019  
+**Location:** Sylhet Diabetes Hospital in Sylhet, Bangladesh  
+**Research Question:** What are the early signs of diabetes? What is the best machine learning technique to accuracy predict and classify a patient has diabetes?
 
-**Synopsis of Study:** Measurements were made on patients with malignant melanoma with each patient's tumor removed. During the surgery the tumor is removed with around 2.5cm of the surrounding skin. Measurements of thickness and ulcerated presence were taken as these variables were predicted to increase the chance of death from the disease. Patients were followed until the end of 1977.
+**Synopsis of Study:** This data was collected through direct questionnariess and diagnosis results from newly affected patients who have signs and symptoms of diabetes.
 
-This dataset consist of 205 observations and 7 variables:
+This dataset consists of 520 observations and 17 variables:
+- Dataset values description:
+  - 1 = Yes
+  - 0 = No
 
-**Variable**|**Description**
+Variable|Description
+-|:---
+Age|Age of patient (16-90).
+Gender|Gender of patient.
+Polyuria|Excessive urination volume, considered usually if more than 2.5 liters per day.
+Polydipsia|Excessive thirst, one of the first symptoms of diabetes
+Sudden Weight Loss|A significant drop in weight without a change in diet or exercise. Can occur in people with type 2 diabetes but more common with type 1.
+Weakness|Feeling of fatigue.
+Polyphagia|Excessive hunger that increases appetite significantly and persistently. One of the main symptoms of diabetes.
+Genital Thrush|A yeast infection, high sugar levels supply better conditions for infection to grow.
+Visual Blurring|Loss of sharpness of vision and makes it impossible to see fine details. Instability of blood sugar is known to be the reason for blurred vision.
+Itching|Irritation to the skin.
+Irritability|Feeling of agitation and anger as a result of stress.
+Delayed Healing|Taking longer to heal than normal.
+Partial Paresis|Weakness of voluntary movement, can be a symptom of diabetes.
+Muscle Stiffness|The inability of the muscles to relax normally. It can affect any part of the body and causes difficulty of moving.
+Alopecia|Leads to hair loss on any part of the body.
+Obesity|Having excess body fat.
+Class|Diagnosis with diabetes. <br>1 Positive <br>0 Negative
+
+**Class**|**Summary Percentage**
 -|-
-time|Survival time in days since the operation, possibly censored.
-status|The patients status at the end of the study. 1 indicates that they had died from melanoma, 2 indicates that they were still alive and 3 indicates that they had died from causes unrelated to their melanoma.
-sex|The patients sex: 1=male, 0=female.
-age|Age in years at the time of the operation.
-year|Year of operation.
-thickness|Tumour thickness in mm.
-ulcer|Indicator of ulceration: 1=present, 0=absent.
-stage|*additional variable based on the thickness of the ulceration (restrictions are based on research). <br> - Stage 1: thickness &le; 1 <br> - Stage 2: thickness &le; 2 <br> - Stage 3: thickness &ge; 2+
-
-**Status**|**Summary Percentage**
--|-
-Alive|65.37%
-Dead|27.84%
-Unrelated|6.80%
+Positive|61.54%
+Negative|38.46%
 
 **Sex**|**Summary Percentage**
 -|-
-Male|62.30%
-Female|37.70%
+Male|63.10%
+Female|36.92%
 
-**Malignant Melanoma** is the most serious form of skin cancer - it develops from unrepairable DNA damage to skin cells, mainly caused by intense or occasional exposure to ultraviolet (UV) radiation from the sun or tanning beds, mutating skin cells to rapidly multiple and forming malignant tumors. Melanoma are most common in the form of black or brown moles (but can form in tissues as well).
+**Diabetes** is a chronic disease that affects how the human body turn food into energy. Currently there is no cure for diabetes but losing weight, being active and eating healthy can help.
 
-The skin consists of 3 layers:
-- Epidermis – outermost layer
-- Dermis – second layer
-- Hypodermis – last layer
+Normally the body breaks down majority of the food taken into sugar/glucose and releases into the bloodstream. If blood sugar increase it signals the pancreas to release insulin. Insulin acts as a key to let the blood sugar into the body's cells to use as energy.
 
-When melanoma is found in the epidermis it is seen as situ or noninvasive, if found in the dermis it is seen as invasive.
+Diabetes is when the body does not make enough insulin or use it as well as it should. When this happens there is a blockage/buildup of blood sugar in the bloodstream which can cause serious health problems such as heart disease, vision loss or kidney disease.
 
-Below is a table showing the stages, descriptions and survival rates for 5 years and 10 years.
-<img src="images/melanoma survival chart.png"/>
+There are 3 types of diabetes:
+
+**Type 1 Diabetes: 5% - 10%**
+- Theoretically caused by an autoimmune reaction where the body attacks itself by mistake. This reaction will stop the body from making insulin. This type can be diagnosed at any age and symptoms often develop quickly. Patients who are diagnosed with Type 1 will have to take insulin daily for life to survive. Currently there is no way to prevent Type 1 diabetes.
+
+**Type 2 Diabetes: 90% - 95%**
+- The body does not use insulin well and blood sugar levels cannot keep at normal levels. It develops over many years and will usually be diagnosed in young adults. Symptoms may not be noticeable so it is recommended to test blood sugar levels if you are at risk.
+  - **Prediabetes**
+    - In the United States, more than 1 in 3 people has prediabetes and more than 8 in 10 do not know they have it. With prediabetes, blood sugar levels are higher than normal but is not enough to be diagnosed as Type 2. Prediabetes will also raise the risk for heart disease and stroke.
+
+**Gestational Diabetes: Pregnant Women who never had diabetes**
+- If diagnosis with this, the baby could have higher risk of health problems. Gestational diabetes usually goes away after the baby is born, however it increases the risk of the mom for Type 2 diabetes later in life. The baby is more likely to have obesity as a child or teen and develop type 2 diabetes later in life.
+
+![diabetes countplots](https://github.com/heiditm/heiditm.github.io/assets/56846204/865ace74-b5dd-4f38-9f64-d947d6f3191d)
+
+Early symptoms of diabetes (sorted from highest likelihood):
+
+Variable|50% of Male patients fall between ages|50% of Female patients fall between ages|Note
+-|:-:|:-:|-
+Polydipsia|47 - 58|39 - 55|All female patients with polydipsia was diagnosed with diabetes.
+Polyuria|44 - 60|39 - 55|All female patients with polyuria was diagnosed with diabetes.
+Sudden Weight Loss|48 - 58|39 - 55
+Partial Paresis|54 - 66|39 - 55
+Visual Blurring|52 - 62|39 - 55
+Weakness|47 - 61|39 - 54
+Itching|41 - 60|39 - 55
+
+![diabetes boxplot](https://github.com/heiditm/heiditm.github.io/assets/56846204/252d6aa8-5b2f-4b89-a15a-65a496fe12f4)
+
+We will try to find the best method to predict and classify diabetes with our data using logistic regression, decision tree, k nearest neighbors and support vector machines.
+
+![diabetes confusion matrix](https://github.com/heiditm/heiditm.github.io/assets/56846204/a90db023-4962-4d2c-af8c-4f51fba5b11d)
+
+Method|Accuracy %
+-|-
+Decision Tree|	98.0769
+Support Vector Machines|	95.1923
+K Nearest Neighbors|	94.2308
+Logistic Regression|	91.3462
+
+The decision tree method shows the best accuracy to predict and classify diabetes with the variables in our data. Support vector machines and K nearest neighbors are very similar in accuracy, falling behind decision tree. Logistic regression shows to be the least accurate classifier, wrongly predicting 9 patients.
 
 
-<img src="images/melanoma boxplot.png"/>
-
-- A critical time frame of 5 years based on the status of the patients for all stages (which matches the initial research for the survival rates)
-
-<img src="images/melanoma 1.png"/>
-
-- Female patients are twice as likely to live through melanoma than male patients
-- Presence of an ulceration show survival rates to be 50 - 50 regardless of sex
-- Patients are 5.7 times more likely to survive if they do not show ulceration
-
-
-<img src="images/melanoma 2.png"/>
-
-- In general, regardless of sex, patients without ulceration have a better chance of survival (with females having a higher likelihood) whereas patients with an ulceration seem to have a 50 - 50 chance of survival
-- Females without ulceration are 8.5 times likely to survive
-- Males without ulceration are 3 times more likely to survive
-- Essentially it becomes more crucial with age
-
-<img src="images/melanoma bubble.png"/>
-
-- Most deaths occur in patients with an ulceration and larger thicknesses
-- Patients without an ulceration generally have a smaller thickness
-
-<img src="images/melanoma crossplot 1.png"/>
-<img src="images/melanoma crossplot 2.png"/>
-<img src="images/melanoma crossplot 3.png"/>
-<img src="images/melanoma crossplot 4.png"/>
-<img src="images/melanoma crossplot 5.png"/>
-<img src="images/melanoma crossplot 6.png"/>
-<img src="images/melanoma crossplot 7.png"/>
-
+<!--
 **Insights:**
 - Survival rates starts to show significant increase after 4+ years
 - Age is unlikely a potential factor although patients over the age of 73 show to have less than a 45% survival rate
@@ -96,4 +113,4 @@ Yes, both thickness and presence of a ulcerated tumor increases the chance of de
 - Factors that **worsen chances of survival** are:
   - Larger thicknesses (over 3.54mm have about an average survival rate of 44%)
   - The presence of an ulceration (survival rates drop to 50/50, regardless of sex)
-    - **Note:** Larger thicknesses shows a higher probability in the formation of an ulceration
+    - **Note:** Larger thicknesses shows a higher probability in the formation of an ulceration-->
