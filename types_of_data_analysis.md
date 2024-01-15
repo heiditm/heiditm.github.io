@@ -1,5 +1,26 @@
-# Early Classification of Diabetes
+# Types of Data Analytics
 
+**There are two main types of analytics:** 
+  -  Reactive Analytics, which is used to understand the data in its current and historical state – more commonly divided into descriptive and diagnostics analysis.
+  -  Proactive Analytics, which uses the data to forecast/predict a future event and recommends an action to be taken – more commonly divided into predictive and prescriptive analysis.
+  -  EXAMPLE: To illustrate the different results provided by each analysis we will center around an example regarding airline data (imagine this dataset consist of dates, sales, airports and gasoline prices for our current purposes).
+
+<span style="color:blue"> REACTIVE ANALYSIS </span> aims to understand what is happening in the data and why it is happening in its current and historical state.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 Here we will explore the  [**Early Classification of Diabetes**](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification/data) dataset through exploratory data analysis (EDA) and predictive analysis (Classification).
 
 **Time Frame Conducted:** Unknown, prior to 2019  
