@@ -15,7 +15,9 @@
 
 
 <!--Good to post the below, incase want to add a better title/small analysis? -->
-[VGChartz Video Game Sales](https://github.com/heiditm/HTM/blob/main/VGChartz%20Video%20Game%20Sales.ipynb)   
+<!--[VGChartz Video Game Sales](https://github.com/heiditm/HTM/blob/main/VGChartz%20Video%20Game%20Sales.ipynb) -->
+[VGChartz Video Game Sales](VGchartz.md)  
+
 <!-- <img src="images/ESRB Rating Symbols.jpg"/>-->
 [<img src="images/VGChartz.png">](https://public.tableau.com/app/profile/heidi.tm/viz/VGChartzVideoGameSalesEDA/VGDashboard)
 [Early Classification of Diabetes](diabetes.md)
