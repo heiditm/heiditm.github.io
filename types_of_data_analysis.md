@@ -12,11 +12,11 @@
 - **Central Tendencies:** Understanding where the center of the data lies *(Ex: Mean, Median, Mode)*
 - **Variability:** Understanding how the data is spread out *(Ex: standard deviation, variance, range)*
 
-&ensp; <b code style="color: forestgreen"> Example: </b> Current annual data shows an increase in gasoline prices compared to the prior year. 
+<b center code style="color: forestgreen"> Example: </b> Current annual data shows an increase in gasoline prices compared to the prior year. 
 
 <b code style="color : dodgerblue "> Diagnostic Analysis </b> is used to understand why the data happened the way it did. Its main goal is to find the cause and effects of the situation. Diagnostic analysis usually involves comparing datasets or variables to find connections or relationships by identifying **correlations, filtering** data and/or performing **univariate/bivariate or multivariate** analysis.  One thing to always remember is that: correlation does not imply causation. 
 
-&ensp; <b code style="color : forestgreen"> Example: </b>  Historical data shows high demand/sales from LA  NYC pre-Christmas holiday. 
+&ensp; <b center code style="color : forestgreen"> Example: </b>  Historical data shows high demand/sales from LA  NYC pre-Christmas holiday. 
 
 <b code style="color : darkorange"> Exploratory Data Analysis </b> - The measures used in descriptive and diagnostics analysis are a part of exploratory data analysis (EDA). Exploratory data analysis aims to figure out the what and whys of the data through measures and visualizations mentioned above as well as attempt to identify any **abnormalities, errors, trends, detect outliers and interesting relationships**. It can also **check assumptions, test hypothesis** and may help **identify potential algorithms used for proactive analysis.**  
 
@@ -24,7 +24,7 @@
 
 <b code style="color : dodgerblue "> Predictive Analysis </b>  uses modeling techniques to forecast predictions to find the likelihood of an event happening and is used to evaluate a decision. Predictive analysis usually uses findings and insights from reactive analysis to spot common outcomes and discover causes. By using statistical modeling techniques, it helps understand the consequences of a decision based on the predictions on how variables will act and perform. 
 
-&ensp; <b code style="color : forestgreen"> Example: </b>  A machine learning algorithm learns through the detected trend of high demands from LA  NYC preChristmas holiday and forecast its predictions for the current year. Results show that there are less sales this year pre-Christmas holiday in comparison to the prior year in its projected state. 
+&ensp; <b center code style="color : forestgreen"> Example: </b></center>  A machine learning algorithm learns through the detected trend of high demands from LA  NYC preChristmas holiday and forecast its predictions for the current year. Results show that there are less sales this year pre-Christmas holiday in comparison to the prior year in its projected state. 
 
 <b code style="color : dodgerblue ">  Prescriptive Analysis </b> uses the outcomes from the predictive analysis and recommends an effective action to be taken, with artificial intelligence (AI) these results could be provided in real-time.  
 
