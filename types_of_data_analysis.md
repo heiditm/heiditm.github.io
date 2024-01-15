@@ -1,19 +1,18 @@
 # Types of Data Analytics
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/8b252ebf-79de-4295-91f3-cfa1665d5ccc)
-
 **There are two main types of analytics:** 
   -  **Reactive Analytics**, which is used to understand the data in its current and historical state – more commonly divided into *descriptive* and *diagnostics* analysis.
   -  **Proactive Analytics**, which uses the data to forecast/predict a future event and recommends an action to be taken – more commonly divided into *predictive* and *prescriptive* analysis.
   -  <span style="color:forestgreen"> **Example:** </span> To illustrate the different results provided by each analysis we will center around an example regarding airline data (imagine this dataset consist of **dates, sales, airports and gasoline prices** for our current purposes).
 
-<span style="color:forestgreen"> **Reactive Analysis** </span> aims to understand what is happening in the data and why it is happening in its current and historical state.  
+<code style="color : #228B22"> **Reactive Analysis** </code> aims to understand what is happening in the data and why it is happening in its current and historical state.  
 
 <span style="color:#3498DB"> **Descriptive Analysis** </span> is used to describe what is happening in the raw data. It does not make assumptions to the data but is strictly used to review what really happen in the data. Some measures taken in this analysis are: 
 - **Distribution:** Understanding the distribution of data by looking at the quartiles, percentiles or frequencies *(Ex: Box plot)*
 - **Central Tendencies:** Understanding where the center of the data lies *(Ex: Mean, Median, Mode)*
 - **Variability:** Understanding how the data is spread out *(Ex: standard deviation, variance, range)*
 
-<span style="color:forestgreen"> **Example:** </span>  Current annual data shows an increase in gasoline prices compared to the prior year. 
+    <span style="color:forestgreen"> **Example:** </span>  Current annual data shows an increase in gasoline prices compared to the prior year. 
 
 <span style="color:#3498DB"> **Diagnostic Analysis** </span> is used to understand why the data happened the way it did. Its main goal is to find the cause and effects of the situation. Diagnostic analysis usually involves comparing datasets or variables to find connections or relationships by identifying **correlations, filtering** data and/or performing **univariate/bivariate or multivariate** analysis.  One thing to always remember is that: correlation does not imply causation. 
 
