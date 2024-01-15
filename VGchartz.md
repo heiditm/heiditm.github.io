@@ -123,6 +123,7 @@ French|3.02%|Ubisoft (Inclusive of all Ubisoft)
   - All 5 games are by Nintendo
   - 4 of 5 games are console games
   - Pokemon is the only handheld game
+
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/5f26bc11-d40a-4c0a-a841-41e625e383a5)
 Logistic Regression and Support Vector Machine models show to have very similar accuracy scores, but since Logistic Regression has a higher accuracy it is the better model to use for classification for platform type!
 ![image](https://github.com/heiditm/heiditm.github.io/assets/56846204/aed3a3bb-a6d1-4f9a-81bd-e91754432006)
