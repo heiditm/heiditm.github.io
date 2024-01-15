@@ -3,32 +3,32 @@
 **There are two main types of analytics:** 
   -  **Reactive Analytics**, which is used to understand the data in its current and historical state – more commonly divided into *descriptive* and *diagnostics* analysis.
   -  **Proactive Analytics**, which uses the data to forecast/predict a future event and recommends an action to be taken – more commonly divided into *predictive* and *prescriptive* analysis.
-  -  <span style="color: #228B22"> **Example:** </span> To illustrate the different results provided by each analysis we will center around an example regarding airline data (imagine this dataset consist of **dates, sales, airports and gasoline prices** for our current purposes).
+  -  <span style="color: #228B22"> **Example:** </code> To illustrate the different results provided by each analysis we will center around an example regarding airline data (imagine this dataset consist of **dates, sales, airports and gasoline prices** for our current purposes).
 
-<code style="color : #228B22"> **Reactive Analysis** </code> aims to understand what is happening in the data and why it is happening in its current and historical state.  
+<code style="color : #228B22"> Reactive Analysis </code> aims to understand what is happening in the data and why it is happening in its current and historical state.  
 
 <span style="color:#3498DB"> **Descriptive Analysis** </span> is used to describe what is happening in the raw data. It does not make assumptions to the data but is strictly used to review what really happen in the data. Some measures taken in this analysis are: 
 - **Distribution:** Understanding the distribution of data by looking at the quartiles, percentiles or frequencies *(Ex: Box plot)*
 - **Central Tendencies:** Understanding where the center of the data lies *(Ex: Mean, Median, Mode)*
 - **Variability:** Understanding how the data is spread out *(Ex: standard deviation, variance, range)*
 
-    <span style="color:forestgreen"> **Example:** </span>  Current annual data shows an increase in gasoline prices compared to the prior year. 
+&ensp;<code style="color : #228B22"> **Example:** </code>  Current annual data shows an increase in gasoline prices compared to the prior year. 
 
 <span style="color:#3498DB"> **Diagnostic Analysis** </span> is used to understand why the data happened the way it did. Its main goal is to find the cause and effects of the situation. Diagnostic analysis usually involves comparing datasets or variables to find connections or relationships by identifying **correlations, filtering** data and/or performing **univariate/bivariate or multivariate** analysis.  One thing to always remember is that: correlation does not imply causation. 
 
-<span style="color:forestgreen"> **Example:** </span>  Historical data shows high demand/sales from LA  NYC pre-Christmas holiday. 
+&emsp;<code style="color : #228B22"> **Example:** </code>  Historical data shows high demand/sales from LA  NYC pre-Christmas holiday. 
 
 <span style="color:orange"> **Exploratory Data Analysis** </span> - The measures used in descriptive and diagnostics analysis are a part of exploratory data analysis (EDA). Exploratory data analysis aims to figure out the what and whys of the data through measures and visualizations mentioned above as well as attempt to identify any **abnormalities, errors, trends, detect outliers and interesting relationships**. It can also **check assumptions, test hypothesis** and may help **identify potential algorithms used for proactive analysis.**  
 
-<span style="color:forestgreen"> **Proactive Analysis** </span> aims to forecast and predict future events using the data for improvements and developments. 
+<code style="color : #228B22"> **Proactive Analysis** </code> aims to forecast and predict future events using the data for improvements and developments. 
 
 <span style="color:#3498DB"> **Predictive Analysis** </span>  uses modeling techniques to forecast predictions to find the likelihood of an event happening and is used to evaluate a decision. Predictive analysis usually uses findings and insights from reactive analysis to spot common outcomes and discover causes. By using statistical modeling techniques, it helps understand the consequences of a decision based on the predictions on how variables will act and perform. 
 
-<span style="color:forestgreen"> **Example:** </span>  A machine learning algorithm learns through the detected trend of high demands from LA  NYC preChristmas holiday and forecast its predictions for the current year. Results show that there are less sales this year pre-Christmas holiday in comparison to the prior year in its projected state. 
+<code style="color : #228B22"> **Example:** </code>  A machine learning algorithm learns through the detected trend of high demands from LA  NYC preChristmas holiday and forecast its predictions for the current year. Results show that there are less sales this year pre-Christmas holiday in comparison to the prior year in its projected state. 
 
 <span style="color:#3498DB"> **Prescriptive Analysis** </span>  uses the outcomes from the predictive analysis and recommends an effective action to be taken, with artificial intelligence (AI) these results could be provided in real-time.  
 
-<span style="color:forestgreen"> **Example:** </span>  As a possible result an airline may (automatically with AI) lower the prices of tickets to a threshold price while accounting for the increase in gasoline prices (and/or miscellaneous factors). 
+<code style="color : #228B22"> **Example:** </code>  As a possible result an airline may (automatically with AI) lower the prices of tickets to a threshold price while accounting for the increase in gasoline prices (and/or miscellaneous factors). 
 
 <span style="color:orange"> **ALGORITHM/AI/ML/DL** </span> - Predictive and Prescriptive analysis usually works together as they will both involve statistical modeling techniques or tools to understand and deep dive into the data.  
 - **Algorithms:** Specific statistical modeling techniques or algorithms needed based on the data or research question
