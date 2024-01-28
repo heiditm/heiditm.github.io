@@ -44,4 +44,15 @@
 - [Project 5 Title](http://example.com/)
 
 ---
+
+<!-- Google tag (gtag.js)
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ST2JX8Z0Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1ST2JX8Z0Y');
+</script>
+
  -->
