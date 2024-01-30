@@ -62,5 +62,8 @@ description: >
 theme: jekyll-theme-minimal
 # google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
+plugins:
+  - jekyll-google-analytics
+  
 google_analytics: 
   tracking_id: G-QZL50T4BRQ
