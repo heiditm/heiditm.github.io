@@ -64,6 +64,3 @@ theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-google-analytics
-  
-google_analytics: 
-  tracking_id: G-QZL50T4BRQ
